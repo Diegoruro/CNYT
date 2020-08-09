@@ -1,10 +1,19 @@
 # Operations of complex numbers
 
-This is a repository for a library that has the functions to complete basic operations with complex numbers, developed with python language
-
+This is a repository for a library that has the functions to complete basic operations with complex numbers, developed with python.
+the following functions are:
+- Addition.
+- Subtraction.
+- Multiplication.
+- Division.
+- Module.
+- Conjugation.
+- Conversion from polar to cartesian.
+- Conversion from cartesian to polar.
+- Return of the phase.
 ## Getting Started
 
-To use this library you will need Python installed in your computer
+To use this library you will need Python installed in your computer in order to run the python files.
 
 ### Prerequisites
 
