@@ -34,7 +34,7 @@ def division(num1, num2):
 
 
 def modulo(num1):
-    rta = round(((num1[0] ** 2) + (num1[1] ** 2))**(1/2),3)
+    rta = round(((num1[0] ** 2) + (num1[1] ** 2)) ** (1 / 2), 3)
     return rta
 
 
@@ -47,24 +47,29 @@ def conjugado(num1):
 def polares(num1):
     resultado = []
     p = modulo(num1)
-    theta = round(math.tan(num1[1] / num1[0]),3)
+    theta = round(math.atan(num1[1] / num1[0]), 3)
     resultado = resultado + [p, theta]
     return resultado
 
 
 def cartesianos(num1):
     resultado = []
-    a = round(num1[0] * (math.cos(num1[1])),3)
-    b = round(num1[0] * (math.sin(num1[1])),3)
+    a = round(num1[0] * (math.cos(num1[1])), 3)
+    b = round(num1[0] * (math.sin(num1[1])), 3)
     resultado = resultado + [a, b]
     return resultado
+
+
+def fase(num1):
+    fase1 = round(math.atan(num1[1] / num1[0]), 3)
+    return fase1
 
 
 def main():
     op = input(
         "Digite el simbolo o nombre de la operacion a realizar de las siguientes opciones:" + "\n" + "para sumar digite:  +" +
         "\n""para restar digite:  -" + "\n""para multiplicar digite=  *" + "\n""para dividir digite=  /" + "\n""para realizar el modulo digite=  modulo" +
-        "\n""para realizar el conjugado digite=  conjugado" + "\n""para Conversión cartesiano a polar digite=  polares" + "\n""para Conversión polar a cartesiano digite=  cartesianos" + "\n")
+        "\n""para realizar el conjugado digite=  conjugado" + "\n""para Conversión cartesiano a polar digite=  polares" + "\n""para Conversión polar a cartesiano digite=  cartesianos" + "\n""para retornar la fase digite=  fase" + "\n")
     if op == "+":
         num1 = []
         num2 = []
@@ -126,10 +131,15 @@ def main():
     elif op == "cartesianos":
         num1 = []
         num1_1 = int(input("Digite el valor de rho"))
-        num1_2 = int(input("Digite el angulo theta en grados"))
-        num1_2=math.radians(num1_2)
+        num1_2 = int(input("Digite el angulo theta en radianes"))
         num1 = num1 + [num1_1, num1_2]
         print(cartesianos(num1))
+    elif op == "fase":
+        num1 = []
+        num1_1 = int(input("Digite el numero de la parte real del primer numero complejo"))
+        num1_2 = int(input("Digite el numero de la parte imaginaria del primer numero complejo"))
+        num1 = num1 + [num1_1, num1_2]
+        print(fase(num1))
 
 
 main()
