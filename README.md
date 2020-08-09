@@ -76,6 +76,7 @@ It will show you some test of every function of the library.
 The following steps will show you how to run it with [pyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
 - Open the file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py) with pycharm
+
 ![](Images/abrir_pruebas.PNG)
 - Then look for the line number 134, right click on the green play button and click on Run option
 ![](Images/run.PNG)
