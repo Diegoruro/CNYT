@@ -32,9 +32,11 @@ modulo([3,4])
 ```
 For more examples use the test file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py).
 ## Prerequisites
+- [Python](https://www.python.org/) version 3.7 or higher
+- [Git](https://git-scm.com/)
+- [pyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
 To use this library you need python, at least 3.7 version, if you already have python installed, to check if it is 3.7 or higher use the following command in cmd.
-always you´ll need git already installed in your computer.
 
 ```
 python --version
@@ -75,7 +77,7 @@ It will show you some test of every function of the library.
 
 The following steps will show you how to run it with [pyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
-- Open the file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py) with pycharm
+- Open the file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py) with [pyCharm](https://www.jetbrains.com/es-es/pycharm/).
 
 ![](Images/abrir_pruebas.PNG)
 - Then look for the line number 134, right click on the green play button and click on Run option
