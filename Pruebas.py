@@ -121,14 +121,14 @@ class Testcomplex(unittest.TestCase):
         resultado = complejos.fase([1, 0])
         self.assertEqual(resultado, 0)
         # segundo_test
-        resultado = complejos.fase([1, 1])
-        self.assertEqual(resultado, 0.785)
+        resultado = complejos.fase([1, -1])
+        self.assertEqual(resultado, 7.068)
         # tercer_test
-        resultado = complejos.fase([1.732, 1])
-        self.assertEqual(resultado, 0.524)
+        resultado = complejos.fase([-1.732, -1])
+        self.assertEqual(resultado, 3.666)
         # cuarto_test
-        resultado = complejos.fase([1, 1.732])
-        self.assertEqual(resultado, 1.047)
+        resultado = complejos.fase([-1, 1.732])
+        self.assertEqual(resultado, 4.189)
 
 
 if __name__ == '__main__':
