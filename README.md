@@ -96,5 +96,5 @@ That´s all.
 
 ## Authors
 
-* **Diego Ruiz Rojas** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Diego Ruiz Rojas** - *main work* - [github](https://github.com/Diegoruro)
 student at:[Escuela Colombiana de Ingeniería Julio Garavito](https://www.escuelaing.edu.co/es/)
