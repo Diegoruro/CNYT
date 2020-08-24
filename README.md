@@ -2,32 +2,54 @@
 
 This is a repository for a library that has the functions to complete basic operations with complex numbers and complex spaces, developed with python.
 The following functions are:
+### Complex Numbers
 - Basic operations of complex numbers(Addition, subtraction, Multiplication,Division)
 - Module.
 - Conjugation.
 - Conversion from polar to cartesian.
 - Conversion from cartesian to polar.
 - Return of the phase.
-- operations with vectors
+### Complex Vectors
+- Additions between vectors.
+- Additive inverse of a vector.
+- Multiplication of a scalar (Complex / Real) by a vector.
+- Norm of a vector.
+- Distance between Vectors.
+### Complex Matrix
+- Addition between matrix.
+- Additive inverse of a matrix.
+- Multiplication of a scalar (Complex / Real) by a matrix.
+- Product between matrix.
+- Verify that a matrix is unitary.
+- Verify that a matrix is hermitian.
+### Functions for complex Matrix/Vectors
+- Transpose.
+- Conjugated.
+- Adjoint.
+- Action.
+- Inner product.
+- Tensor product.
 ## Getting Started
 
 In order to use the following functions you´ll need to use tuples instead of the normal structure of the complex numbers the following example will guide you on how to convert normal expression into tuples.
+### For complex Numbers
 ```
 3+2i->( real, imaginary )
 (3,2)
 ```
 So in order to use the function you´ll code:
 ```
-function_name([a,b],[c,d]) (for operations between complex numbers)
-function_name([a,b])(for operations whit complex numbers)
+function_name((a,b),(c,d)) (for operations between complex numbers)
+function_name((a,b))(for operations whit complex numbers)
 ```
 Here are some examples:
 ```
-suma([1,2],[3,4])
-[4,6]
-modulo([3,4])
+suma((1,2),(3,4))
+(4,6)
+modulo((3,4))
 5
 ```
+### For complex vectors
 For more examples use the test file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py).
 ## Prerequisites
 - [Python](https://www.python.org/) version 3.7 or higher
