@@ -190,7 +190,7 @@ def distancia(vect1, vect2):
 
 
 def unit(mat):
-    if len(mat)== len(mat[0]):
+    if len(mat) == len(mat[0]):
         In = [[(0, 0) for j in range(len(mat[0]))] for i in range(len(mat))]
         for i in range(len(mat)):
             for j in range(len(mat[0])):
@@ -204,9 +204,9 @@ def unit(mat):
                 if product[i][j] != In[i][j]:
                     rta = False
         if rta:
-            return  True
+            return True
         else:
-            return  False
+            return False
     else:
         return "The input have to be a square matrix"
 
@@ -222,30 +222,16 @@ def herm(mat):
             else:
                 rta = False
     return rta
-# print(producto([[[3, 2], [6, 3], [0, 0]], [[5, 1], [4, 0], [2, 3]], [[4, 3], [5, 1], [4, 2]]],[[[1, 0], [2, 3], [3, 4]], [[1, 4], [5, 6], [6, 4]], [[4, 3], [5, 1], [4, 2]]]))
-# print(multi_esc_mat([3, 2], [[[1, 0], [2, 3], [3, 4]], [[1, 4], [5, 6], [6, 4]]]))
-# print(adjunta([[[1, 0], [2, 3], [3, 4]], [[1, 4], [5, 6], [6, 4]]]))
-# print(unit([[(1/2, 1/2), (0,1/(math.sqrt(3))), (3/2*(math.sqrt(15)),1/2*(math.sqrt(15)))],[(-1/2,0),(1/(math.sqrt(3)),0),(4/2*(math.sqrt(15)),3/2*(math.sqrt(15)))],[(1/2,0),(0,-1/(math.sqrt(3))),(0,5/2*(math.sqrt(15)))]]))
-# print(distancia([[3, 0], [1, 0], [2, 0]],[[2,0],[2,0],[-1,0]]))print(unit([[(0, 0), (0, 1)], [(0, 1), (0, 0)]]))
-# print(producto([[[2/3, 0], [-2/3, 1/3]], [[2/3, 1/3], [2/3, 0]]],[[[0.6666666666666666, 0], [0.6666666666666666, -0.3333333333333333]], [[-0.6666666666666666, -0.3333333333333333], [0.6666666666666666, 0]]]))
-# print(unit([[[2/3, 0], [-2/3, 1/3]], [[2/3, 1/3], [2/3, 0]]]))
-# print(adjunta([[[2/3, 0], [-2/3, 1/3]], [[2/3, 1/3], [2/3, 0]]]))
-# mat = [[[7, 0], [6, 5]], [[6, -5], [-3, 0]]]
-# for row in mat:
-#    print(row)
-# mat2 = transpuesta([[[7, 0], [6, 5]], [[6, -5], [-3, 0]]])
-# for row in mat2:
-#   print(row)
-# mat3 = conjugada_mat(mat2)
-# for row in mat3:
-#    print(row)
-# mat4 = adjunta(mat)
-# for row in mat4:
-#   print(row)
-# print(distancia([(4, 5), (1, 3)],[(3, 4), (4, 5)]))
-print(herm([[(7, 0), (6, 5)], [(6, -5), (-3, 0)]]))
-# [[1, 0], [2, 3], [3, 4]]
-# [[1, 4], [5, 6], [6, 4]]
-# [[1, 0], 0]
-# [[2, 3], 0]
-# [[3, 4], 0]
+
+
+def tensor(mat1, mat2):
+    for i in range(len(mat1)):
+        for j in range(len(mat2)):
+            h = mat1[i][j]
+            mat1[i][j] = multi_esc_mat(h, mat2)
+    return mat1
+
+
+def printmatrix(matrix):
+    for row in range(len(matrix)):
+        print(''.join(map(str, matrix[row])))
