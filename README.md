@@ -32,12 +32,12 @@ The following functions are:
 ## Getting Started
 
 In order to use the following functions you´ll need to use tuples instead of the normal structure of the complex numbers the following example will guide you on how to convert normal expression into tuples.
-### For complex Numbers
 ```
 3+2i->( real, imaginary )
 (3,2)
 ```
 So in order to use the function you´ll code:
+### For complex Numbers
 ```
 function_name((a,b),(c,d)) (for operations between complex numbers)
 function_name((a,b))(for operations whit complex numbers)
@@ -50,6 +50,46 @@ modulo((3,4))
 5
 ```
 ### For complex vectors
+
+```
+function_name([[(a,b),(c,d),(ef)]],[[(a1,b1),(c1,d1),(e1,f1)]]) (for operations between complex vectors)
+function_name((a,b),[[(a1,b1),(c1,d1),(e1,f1)]])(for operations whit complex vectors and scalars)
+function_name([[(a1,b1),(c1,d1),(e1,f1)]])(for operations whit complex vectors)
+```
+Here are some examples:
+```
+Addition_vect([(1, 0), (2, 0)], [(1, 2), (3, 4)])
+[(2, 2), (5, 4)]
+norm([(4, 2), (2, 6), (6, 3), (7, 8)])
+14.76
+```
+### For complex matrix
+
+```
+function_name([[(a,b),(c,d),(ef)]],[[(a1,b1),(c1,d1),(e1,f1)]]) (for operations between complex matrix)
+function_name((a,b),[[(a1,b1),(c1,d1),(e1,f1)]])(for operations whit complex matrix and scalars)
+function_name([[(a1,b1),(c1,d1),(e1,f1)]])(for operations whit complex matrix)
+```
+Here are some examples:
+```
+suma_mat([[(1, 0), (2, 0)], [(3, 4), (4, 5)]], [[(4, 5), (1, 3)], [(6, 7), (8, 9)]])
+[[(5, 5), (3, 3)], [(9, 11), (12, 14)]]
+herm([[(7, 0), (6, 5)], [(6, -5), (-3, 0)]])
+True
+```
+### For functions with complex matrix/vectors
+
+```
+function_name([[(a,b),(c,d),(ef)]],[[(a1,b1),(c1,d1),(e1,f1)]]) (for operations between complex matrix and vectors)
+function_name([[(a1,b1),(c1,d1),(e1,f1)]])(for operations whit complex matrix/vectors)
+```
+Here are some examples:
+```
+Action([[(1, 0), (2, 0)], [(3, 4), (4, 5)]], [[(4, 5)], [(1, 3)]])
+[[(6, 11)], [(-19, 48)]]
+conjugada_mat([[(1, 0), (2, 0)], [(3, 4), (4, 3)]]
+[[(1, 0), (2, 0)], [(3, -4), (4, -3)]]
+```
 For more examples use the test file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py).
 ## Prerequisites
 - [Python](https://www.python.org/) version 3.7 or higher
