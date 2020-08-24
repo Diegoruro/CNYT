@@ -91,7 +91,7 @@ git clone https://github.com/Diegoruro/ComplexCNYT.git
 
 To run the test of the library you´ll need to open the following file.
 ```
-Pruebas.py
+Pruebas2.py
 ```
 It will show you some test of every function of the library.
 
@@ -105,8 +105,8 @@ The following steps will show you how to run it with [pyCharm](https://www.jetbr
 
 That´s all.
 ### Files
-- [Complejos.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py)
-- [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py)
+- [New_complejos.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/new_complejos.py)
+- [Pruebas2.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas2.py)
 
 ## Folders
 - [Images](https://github.com/Diegoruro/ComplexCNYT/tree/master/Images): contains the images used in the Readme file.
