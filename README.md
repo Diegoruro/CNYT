@@ -90,7 +90,7 @@ Action([[(1, 0), (2, 0)], [(3, 4), (4, 5)]], [[(4, 5)], [(1, 3)]])
 conjugada_mat([[(1, 0), (2, 0)], [(3, 4), (4, 3)]]
 [[(1, 0), (2, 0)], [(3, -4), (4, -3)]]
 ```
-For more examples use the test file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py).
+For more examples use the test file [Pruebas2.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas2.py).
 ## Prerequisites
 - [Python](https://www.python.org/) version 3.7 or higher
 - [Git](https://git-scm.com/)
