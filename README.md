@@ -140,8 +140,8 @@ The following steps will show you how to run it with [pyCharm](https://www.jetbr
 - Open the file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py) with [pyCharm](https://www.jetbrains.com/es-es/pycharm/).
 
 ![](Images/abrir_pruebas.PNG)
-- Then look for the line number 134, right click on the green play button and click on Run option
-![](Images/run.PNG)
+- Then look for the line number 369, right click on the green play button and click on Run option
+![](Images/run_2.PNG)
 
 That´s all.
 ### Files
