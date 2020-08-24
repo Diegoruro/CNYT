@@ -1,16 +1,14 @@
-# Operations of complex numbers
+# Operations of complex numbers and complex space.
 
-This is a repository for a library that has the functions to complete basic operations with complex numbers, developed with python.
+This is a repository for a library that has the functions to complete basic operations with complex numbers and complex spaces, developed with python.
 The following functions are:
-- Addition.
-- Subtraction.
-- Multiplication.
-- Division.
+- Basic operations of complex numbers(Addition, subtraction, Multiplication,Division)
 - Module.
 - Conjugation.
 - Conversion from polar to cartesian.
 - Conversion from cartesian to polar.
 - Return of the phase.
+- operations with vectors
 ## Getting Started
 
 In order to use the following functions you´ll need to use tuples instead of the normal structure of the complex numbers the following example will guide you on how to convert normal expression into tuples.
