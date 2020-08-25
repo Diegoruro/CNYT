@@ -42,7 +42,7 @@ def conjugado(num1):
 
 def polares(num1):
     p = modulo(num1)
-    theta = round(math.atan(num1[1] / num1[0]), 3)
+    theta = round(math.atan2(num1[1] / num1[0]), 3)
     resultado = p, theta
     return resultado
 
@@ -55,13 +55,7 @@ def cartesianos(num1):
 
 
 def fase(num1):
-    fase1 = round(math.atan(num1[1] / num1[0]), 3)
-    if num1[0] < 0 and num1[1] > 0:
-        fase1 = round(math.pi - fase1, 3)
-    elif num1[0] < 0 and num1[1] < 0:
-        fase1 = round(math.pi + fase1, 3)
-    elif num1[0] > 0 and num1[1] < 0:
-        fase1 = round(2 * math.pi - fase1, 3)
+    fase1 = round(math.atan2(num1[1] / num1[0]), 3)
     return fase1
 
 
@@ -235,3 +229,8 @@ def tensor(mat1, mat2):
 def printmatrix(matrix):
     for row in range(len(matrix)):
         print(''.join(map(str, matrix[row])))
+
+
+print(unit([[(1/math.sqrt(2),0),(1/math.sqrt(2),0)],[(1/math.sqrt(2),0),(-1/math.sqrt(2),0)]]))
+m=adjunta([[(0,2),(0,0)],[(0,0),(0,-2)]])
+print(producto([[(0,2),(0,0)],[(0,0),(0,-2)]],m))
