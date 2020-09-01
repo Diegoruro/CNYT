@@ -42,7 +42,7 @@ def conjugado(num1):
 
 def polares(num1):
     p = modulo(num1)
-    theta = round(math.atan2(num1[1] / num1[0]), 3)
+    theta = round(math.atan2(num1[1] , num1[0]), 3)
     resultado = p, theta
     return resultado
 
@@ -55,7 +55,7 @@ def cartesianos(num1):
 
 
 def fase(num1):
-    fase1 = round(math.atan2(num1[1] / num1[0]), 3)
+    fase1 = round(math.atan2(num1[1], num1[0]), 3)
     return fase1
 
 
@@ -231,6 +231,5 @@ def printmatrix(matrix):
         print(''.join(map(str, matrix[row])))
 
 
-print(unit([[(1/math.sqrt(2),0),(1/math.sqrt(2),0)],[(1/math.sqrt(2),0),(-1/math.sqrt(2),0)]]))
-m=adjunta([[(0,2),(0,0)],[(0,0),(0,-2)]])
-print(producto([[(0,2),(0,0)],[(0,0),(0,-2)]],m))
+print(multi((1,0),(-1,2)))
+#c_2(15,8)

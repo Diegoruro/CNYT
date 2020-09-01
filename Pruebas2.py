@@ -122,13 +122,13 @@ class Testcomplex(unittest.TestCase):
         self.assertEqual(resultado, 0)
         # segundo_test
         resultado = new_complejos.fase([1, -1])
-        self.assertEqual(resultado, 7.068)
+        self.assertEqual(resultado, -0.785)
         # tercer_test
         resultado = new_complejos.fase([-1.732, -1])
-        self.assertEqual(resultado, 3.666)
+        self.assertEqual(resultado, -2.618)
         # cuarto_test
         resultado = new_complejos.fase([-1, 1.732])
-        self.assertEqual(resultado, 4.189)
+        self.assertEqual(resultado, 2.094)
 
     def test_suma_vecto(self):
         # primer_test
