@@ -2,8 +2,8 @@ import math
 
 
 def suma(num1, num2):
-    suma1 = round(num1[0] + num2[0], 3)
-    suma2 = round(num1[1] + num2[1], 3)
+    suma1 =num1[0] + num2[0]
+    suma2 =num1[1] + num2[1]
     resultado = suma1, suma2
     return resultado
 
@@ -16,8 +16,8 @@ def resta(num1, num2):
 
 
 def multi(num1, num2):
-    rest1 = round((num1[0] * num2[0]) - (num1[1] * num2[1]), 3)
-    rest2 = round((num1[0] * num2[1]) + (num1[1] * num2[0]), 3)
+    rest1 = (num1[0] * num2[0]) - (num1[1] * num2[1])
+    rest2 = (num1[0] * num2[1]) + (num1[1] * num2[0])
     resultado = rest1, rest2
     return resultado
 
@@ -230,6 +230,11 @@ def printmatrix(matrix):
     for row in range(len(matrix)):
         print(''.join(map(str, matrix[row])))
 
+def matriz(mat,vect,clicks):
+    for j in range(clicks):
+        new_vect=producto(mat,vect)
+        vect=new_vect
+    return vect
 
-print(multi((1,0),(-1,2)))
+print(matriz([[(0,0),(0,0),(1/18,0),(2/18,0),(5/18,0),(10/18,0)],[(0,0),(0,0),(2/18,0),(1/18,0),(10/18,0),(5/18,0)],[(1/9,0),(2/9,0),(1/6,0),(2/6,0),(1/18,0),(2/18,0)],[(2/9,0),(1/9,0),(2/6,0),(1/6,0),(2/18,0),(1/18,0)],[(2/9,0),(4/9,0),(1/9,0),(2/9,0),(0,0),(0,0)],[(4/9,0),(2/9,0),(2/9,0),(1/9,0),(0,0),(0,0)]],[[(0.001,  0)], [(0.045, 0)], [(0.004, 0)], [(0.009, 0)], [(0.855, 0)], [(0.085, 0)]],2))
 #c_2(15,8)
