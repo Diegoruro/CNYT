@@ -9,11 +9,12 @@ In order to use the following functions you´ll need to use tuples instead of th
 (3,2)
 ```
 
-For more examples use the test file [Pruebas2.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas2.py).
+For more examples use the test file [ClassicTest.py ](https://github.com/Diegoruro/CNYT/blob/master/ClassicToQuantum/ClassicTest.py).
 ## Prerequisites
 - [Python](https://www.python.org/) version 3.7 or higher
 - [Git](https://git-scm.com/)
 - [pyCharm](https://www.jetbrains.com/es-es/pycharm/)
+- Matplotlib and numpy libraries
 
 To use this library you need python, at least 3.7 version, if you already have python installed, to check if it is 3.7 or higher use the following command in cmd.
 
@@ -50,22 +51,22 @@ git clone https://github.com/Diegoruro/ComplexCNYT.git
 
 To run the test of the library you´ll need to open the following file.
 ```
-Pruebas2.py
+ClassicTest.py
 ```
 It will show you some test of every function of the library.
 
 The following steps will show you how to run it with [pyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
-- Open the file [pruebas.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas.py) with [pyCharm](https://www.jetbrains.com/es-es/pycharm/).
+- Open the file [ClassicTest.py ](https://github.com/Diegoruro/CNYT/blob/master/ClassicToQuantum/ClassicTest.py) with [pyCharm](https://www.jetbrains.com/es-es/pycharm/).
 
 ![](Images/abrir_pruebas.PNG)
-- Then look for the line number 369, right click on the green play button and click on Run option
+- Then look for the line number 82, right click on the green play button and click on Run option
 ![](Images/run_2.PNG)
 
 That´s all.
 ### Files
-- [New_complejos.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/new_complejos.py)
-- [Pruebas2.py](https://github.com/Diegoruro/ComplexCNYT/blob/master/Pruebas2.py)
+- [ClassicToQuantum.py ](https://github.com/Diegoruro/CNYT/blob/master/ClassicToQuantum/ClassicToQuantum.py)
+- [ClassicTest.py ](https://github.com/Diegoruro/CNYT/blob/master/ClassicToQuantum/ClassicTest.py)
 
 ## Folders
 - [Images](https://github.com/Diegoruro/ComplexCNYT/tree/master/Images): contains the images used in the Readme file.
