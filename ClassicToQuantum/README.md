@@ -1,6 +1,11 @@
 # Classic to quantum.
 
+In this library we perform experiments of quantum systems,like:
+- The marble experiments with Boolean coefficients.
+- Probabilistic classic multiple slit experiments, with more than two slits.
+- Quantum multiple slits experiment.
 
+additionally the program graphs the probabilities of the quantum systems.
 ## Getting Started
 
 In order to use the following functions you´ll need to use tuples instead of the normal structure of the complex numbers the following example will guide you on how to convert normal expression into tuples.
@@ -9,7 +14,6 @@ In order to use the following functions you´ll need to use tuples instead of th
 (3,2)
 ```
 
-For more examples use the test file [ClassicTest.py ](https://github.com/Diegoruro/CNYT/blob/master/ClassicToQuantum/ClassicTest.py).
 ## Prerequisites
 - [Python](https://www.python.org/) version 3.7 or higher
 - [Git](https://git-scm.com/)
