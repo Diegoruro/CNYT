@@ -1,8 +1,6 @@
 # Double Slit Experiment.
 
-
-
-additionally the program graphs the probabilities of the quantum systems.
+This experiment allow us to understand the basic principle of quantum mechanics.
 
 
 ## Materials
@@ -28,6 +26,9 @@ To run the Experiment we need to use the laser pointer aiming to the two slits o
 ![](Images/laser.PNG)
 ## Folders
 - [Images](https://github.com/Diegoruro/ComplexCNYT/tree/master/Images): contains the images used in the Readme file.
+
+## Simulation with libraries.
+In order to simulate the experiment in a common computer we will use the [ClassicToQuantum](https://github.com/Diegoruro/CNYT/tree/master/ClassicToQuantum) folder which has the libraries to perform the simulation of this experiment.
 
 ## Authors
 
