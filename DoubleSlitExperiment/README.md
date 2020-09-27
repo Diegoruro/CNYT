@@ -18,8 +18,8 @@ In order to perform this experiment we need the following materials.
 
 The following construction is a model of a Double slit and in order to perform this experiment we need to make it.
 
-![](Images/Slit1.PNG)
-![](Images/Slit2.PNG)
+![](Images/Slits1.jpeg)
+![](Images/Slits2.jpeg)
  
 ## Running the Experiment
 
