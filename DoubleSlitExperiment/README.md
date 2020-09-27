@@ -34,7 +34,7 @@ follow the step by step to install the library.
 copy the link of the repository with the following steps:
 
  - Get into the main git of the repository.
-![](Images/Example_1.PNG)
+![](Images/laser.PNG)
  - Copy the URL of the repository by clicking the code button and copy button.
 ![](Images/Example_2.png)
  - Create a folder where you want to save the repository and open it.
