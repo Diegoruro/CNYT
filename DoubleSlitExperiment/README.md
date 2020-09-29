@@ -39,7 +39,12 @@ To run the Experiment we need to use the laser pointer aiming to the two slits o
 ## Simulation with libraries.
 In order to simulate the experiment in a common computer we will use the [ClassicToQuantum](https://github.com/Diegoruro/CNYT/tree/master/ClassicToQuantum) folder which has the libraries to perform the simulation of this experiment.
 
-
+Ussing the following function we can simulate the experiment
+```
+matriz_complex(mat, vect, clicks):
+```
+Using the following matrix and inital vector with at least two clicks the simulation give us the status of the probability of the experiment.
+![](Images/Matrix.PNG)
 
 
 ## Authors
