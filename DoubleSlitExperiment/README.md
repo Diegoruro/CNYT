@@ -2,7 +2,16 @@
 
 This experiment allow us to understand the basic principle of quantum mechanics.
 
+In the experiment, a laser was used to cast a beam of light onto an aluminum foil plate. If this has a single opening or slit then we will have the projection of a single point the light passes through a single slit, if we change a bit of the system using two slits the projection will be different from the first projection , it will show like the laser beam is expanded accross a horizontal line, this will be explained from the quantum mechanics.
 
+## Explanation
+When a photon from the laser beam passes through the two slits, it appears that it is in two different places at the same time, this is due to interference between waves equations
+
+The following videos will explain better the objective of the experiment and why this happen.
+
+https://www.youtube.com/watch?v=Y9ScxCemsPM&ab_channel=QuantumFracture
+
+https://www.youtube.com/watch?v=r2vlr2LyUnw&ab_channel=QuantumFracture
 ## Materials
 
 In order to perform this experiment we need the following materials.
