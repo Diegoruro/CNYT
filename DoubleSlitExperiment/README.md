@@ -39,6 +39,9 @@ To run the Experiment we need to use the laser pointer aiming to the two slits o
 ## Simulation with libraries.
 In order to simulate the experiment in a common computer we will use the [ClassicToQuantum](https://github.com/Diegoruro/CNYT/tree/master/ClassicToQuantum) folder which has the libraries to perform the simulation of this experiment.
 
+
+
+
 ## Authors
 
 * **Diego Ruiz Rojas** - *main work* - [github](https://github.com/Diegoruro)
